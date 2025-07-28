@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>###### | Fine Dining Experience</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">######</a>
+        <button class="mobile-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reservation">Reservation</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to</h2>
+      <h1>###### PALACE</h1>
+      <p>Experience culinary excellence in an intimate setting with breathtaking views and impeccable service</p>
+      <div class="cta-buttons">
+        <a href="#reservation" class="btn">Book a Table</a>
+        <a href="#menu" class="btn btn-outline">View Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="section welcome-section" id="about">
+    <div class="container">
+      <div class="welcome-container">
+        <div class="welcome-text">
+          <h3>Fine-Dining</h3>
+          <h2>ABOUT US</h2>
+          <div class="divider"></div>
+          <p>
+            ###### is an attempt to create a restaurant which in future can 
+            become completely self-sustainable by creating an entire "ecosystem" 
+            from the fish and vegetables to the livestock, that suits our idea of 
+            responsible, conscientious farming (and restaurant) where even "waste" 
+            is turned into a functional part of the cycle.
+          </p>
+          <p>
+            Our chefs combine traditional cooking techniques with innovative 
+            approaches to create dishes that are both familiar and surprising. 
+            We source the finest ingredients from local farmers and producers 
+            who share our commitment to sustainable practices.
+          </p>
+          <a href="#">OUR STORY <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="welcome-image">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Restaurant Interior">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Discover Section -->
+  <section class="section discover-section">
+    <div class="container">
+      <div class="discover-content">
+        <h2>Discover</h2>
+        <h1>###### RESTAURANT</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section features-section">
+    <div class="container">
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3>INTIMATE RESTAURANT FOR YOU</h3>
+        <p>
+          Experience an intimate dining atmosphere, where elegant décor and candlelit tables set the perfect mood for an unforgettable evening with your loved one.
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <h3>DELICIOUS FOOD</h3>
+        <p>
+          Indulge in our chef's finest creations, crafted with fresh, high-quality ingredients that bring out the rich and authentic flavors in every bite.
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">
+          <i class="fas fa-wine-glass-alt"></i>
+        </div>
+        <h3>WINES YOU ENJOY</h3>
+        <p>
+          Elevate your dining experience with our exquisite selection of premium red wines, perfectly paired to complement every meal and delight your senses.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Specialties</h2>
+        <p>Discover our carefully crafted menu featuring the finest ingredients and innovative culinary techniques</p>
+        <div class="divider"></div>
+      </div>
+      
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-category="appetizers">Appetizers</button>
+        <button class="tab-btn" data-category="mains">Main Courses</button>
+        <button class="tab-btn" data-category="desserts">Desserts</button>
+        <button class="tab-btn" data-category="drinks">Drinks</button>
+      </div>
+      
+      <div class="menu-grid">
+        <!-- Appetizers -->
+        <div class="menu-item" data-category="appetizers">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Truffle Arancini">
+          </div>
+          <div class="menu-content">
+            <div class="menu-title">
+              <h3>Truffle Arancini</h3>
+              <span>R249.00</span>
+            </div>
+            <p>Risotto balls with black truffle and mozzarella, served with truffle aioli</p>
+          </div>
+        </div>
+        
+        <div class="menu-item" data-category="appetizers">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1617196035154-1e2b7a9b6e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Seared Scallops">
+          </div>
+          <div class="menu-content">
+            <div class="menu-title">
+              <h3>Seared Scallops</h3>
+              <span>R379.00</span>
+            </div>
+            <p>Perfectly seared scallops with cauliflower puree and caviar</p>
+          </div>
+        </div>
+        
+        <!-- Main Courses -->
+        <div class="menu-item" data-category="mains">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Filet Mignon">
+          </div>
+          <div class="menu-content">
+            <div class="menu-title">
+              <h3>Filet Mignon</h3>
+              <span>R414.00</span>
+            </div>
+            <p>8oz grass-fed beef tenderloin with truffle mashed potatoes and seasonal vegetables</p>
+          </div>
+        </div>
+        
+        <div class="menu-item" data-category="mains">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Pan-Seared Salmon">
+          </div>
+          <div class="menu-content">
+            <div class="menu-title">
+              <h3>Pan-Seared Salmon</h3>
+              <span>R250</span>
+            </div>
+            <p>Wild-caught salmon with lemon-dill sauce and asparagus</p>
+          </div>
+        </div>
+        
+        <!-- Desserts -->
+        <div class="menu-item" data-category="desserts">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Chocolate Soufflé">
+          </div>
+          <div class="menu-content">
+            <div class="menu-title">
+              <h3>Chocolate Soufflé</h3>
+              <span>R250</span>
+            </div>
+            <p>Warm chocolate soufflé with vanilla bean ice cream</p>
+          </div>
+        </div>
+        
+        <div class="menu-item" data-category="desserts">
+          <div class="menu-img">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1164&q=80" alt="Crème Brûlée">
+          </div>
+          <div class="menu-content">
+            <div class="menu-title">
+              <h3>Crème Brûlée</h3>
+              <span>R250</span>
+            </div>
+            <p>Classic vanilla bean crème brûlée with fresh berries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="section reservation-section" id="reservation">
+    <div class="container">
+      <div class="reservation-container">
+        <div class="reservation-info">
+          <h2>Make a Reservation</h2>
+          <p>Experience the finest dining at ######. Book your table today and enjoy an unforgettable culinary journey.</p>
+          <p>We recommend booking at least 48 hours in advance for weekends and special occasions.</p>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Phone</h4>
+              <p>(+27) 71 194 2822</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p>reservations@######.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="reservation-form">
+          <form id="bookingForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Your Number" required>
+              </div>
+              <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" required>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                  <option value="6">6 People</option>
+                  <option value="7">7+ People</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" required>
+              </div>
+              <div class="form-group">
+                <label for="time">Time</label>
+                <select id="time" required>
+                  <option value="17:00">5:00 PM</option>
+                  <option value="17:30">5:30 PM</option>
+                  <option value="18:00">6:00 PM</option>
+                  <option value="18:30">6:30 PM</option>
+                  <option value="19:00">7:00 PM</option>
+                  <option value="19:30">7:30 PM</option>
+                  <option value="20:00">8:00 PM</option>
+                  <option value="20:30">8:30 PM</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Special Requests</label>
+              <textarea id="message" rows="4"></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Book Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Gallery</h2>
+        <p>Take a visual journey through our restaurant, dishes, and atmosphere</p>
+        <div class="divider"></div>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Restaurant Interior">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Dining Area">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Chef Cooking">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Food Presentation">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Wine Selection">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1564759077034-936b00e52d56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Dessert">
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Guests Say</h2>
+        <p>Hear from our valued customers about their dining experiences</p>
+        <div class="divider"></div>
+      </div>
+      
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <div class="testimonial-img">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Sarah Johnson">
+          </div>
+          <p class="testimonial-text">
+            "The dining experience at ###### was exceptional. The food was exquisite, the service impeccable, and the ambiance perfect for a special evening. The filet mignon was cooked to perfection!"
+          </p>
+          <h4 class="testimonial-author">Sarah Johnson</h4>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>Have questions or special requests? We'd love to hear from you.</p>
+          
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Address</h4>
+              <p>Karoo Yard | Marriam Makeba Road | Johannesburg</p>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Opening Hours</h4>
+              <p>Sunday - Monday: <span style="color: red;">Closed</span><br>
+                Tuesday - Saturday: 6:45 PM - 10:00 PM<br>
+            
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Phone</h4>
+              <p> (+27) 71 194 2822</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>###### Restaurant</h3>
+          <p>Experience the finest in sustainable dining with our farm-to-table concept that celebrates local ingredients and innovative culinary techniques.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Opening Hours</h3>
+          <ul class="footer-links">
+            <li>Sunday - Monday: <span style="color: red;">Closed</span></li>
+            <li>Tuesday - Saturday: 6:45 PM - 10:00 PM</li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter for special offers and updates.</p>
+          <form class="footer-form">
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 ###### Restaurant. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
